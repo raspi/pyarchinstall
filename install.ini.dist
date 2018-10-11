@@ -1,0 +1,11 @@
+[network]
+dhcp=on
+ipv4=192.168.101.251/24
+gateway=192.168.101.1
+
+[time]
+ntp=192.168.101.1
+
+[locale]
+keyboard=fi
+locale=fi_FI.UTF-8

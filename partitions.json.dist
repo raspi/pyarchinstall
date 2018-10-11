@@ -1,0 +1,28 @@
+{
+  "partitions": [
+    {
+      "name": "BIOS",
+      "type": "ef02",
+      "size": "+1M",
+      "description": "BIOS boot partition"
+    },
+    {
+      "name": "EFI",
+      "type": "ef00",
+      "size": "+512M",
+      "description": "EFI boot partition"
+    },
+    {
+      "name": "Swap",
+      "type": "8200",
+      "size": "+1G",
+      "description": "Swap partition"
+    },
+    {
+      "name": "Linux",
+      "type": "8300",
+      "size": "0",
+      "description": "Main system partition"
+    }
+  ]
+}
